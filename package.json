@@ -1,0 +1,32 @@
+{
+    "name": "mywabot",
+    "version": "1.0.5",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "rm -rf package-lock.json && node index.js",
+        "dev": "node system/run.js",
+        "lint": "npx eslint --fix ."
+    },
+    "keywords": [
+        "wabot",
+        "botwa",
+        "amiruldev",
+        "baileys",
+        "scrape"
+    ],
+    "author": "Amirul Dev",
+    "license": "MIT",
+    "description": "Best WhatsApp Bot Base 2025",
+    "dependencies": {
+        "baileys": "github:amiruldev20/Baileys",
+        "cheerio": "latest",
+        "file-type": "^19.6.0",
+        "session": "npm:baileys-mongodb@1.0.5"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.14.0",
+        "eslint": "^9.14.0",
+        "globals": "^15.12.0"
+    }
+}

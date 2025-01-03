@@ -1,0 +1,15 @@
+# folders
+.session
+node_modules
+temp
+temp/*
+.idx
+
+# files 
+tes.js
+mywadb.json
+up.sh
+load.sh
+enc.sh
+setting.js
+pnpm-lock.yaml
